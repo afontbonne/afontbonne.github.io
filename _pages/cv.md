@@ -11,30 +11,25 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+
+*  (2021) Ph. D of the [Paris-Saclay University](https://www.universite-paris-saclay.fr/en). <b><i>Joint design of optical systems and imge processing - A new approach to high level optical design.</i></b> Supervisor : Hervé Sauer ([LCF](https://www.lcf.institutoptique.fr/en)) Director : François Goudail ([LCF](https://www.lcf.institutoptique.fr/en))
+
+*  (2018) Master Degree in Optical Engineering at the [Institut d'Optique Graduate School](https://www.institutoptique.fr/)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+*  (Currently) Postdoctoral researcher at ONERA, [DOTA](https://www.onera.fr/en/dota) (ERIO). <b><i>Optical and image processing co-design for depth of field extension in infrared imaging.</i></b> Supervisors : Guillaume Druart (ONERA/DOTA/ERIO) and Pauline Trouvé-Peloux (ONERA/DTIS/IVA).
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+*  (2022) Postdoctoral researcher at Charles Fabry Laboratory, in the [Imaging & Information group](https://www.lcf.institutoptique.fr/en/groups/imaging-and-information). <b><i>Joint design of optical systems and image processing.</i></b> Supervisor : François Goudail (LCF).
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+I have work experience in optical design, image processing, and end-to-end design :
+ *  Optical design : [Synopsys CodeV](https://www.synopsys.com/optical-solutions/codev.html) and [Zemax OpticStudio](https://www.zemax.com/pages/opticstudio).
+ *  Programming languages : Matlab and Python.
+
+# Ajouter encadrement de stage, lien vers reviews, jury de thèse
+
 
 Publications
 ======
@@ -42,7 +37,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Conferences and Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
@@ -53,7 +48,3 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
