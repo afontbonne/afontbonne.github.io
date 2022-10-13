@@ -28,7 +28,7 @@ I have work experience in optical design, image processing, and end-to-end desig
  *  Optical design : [Synopsys CodeV](https://www.synopsys.com/optical-solutions/codev.html) and [Zemax OpticStudio](https://www.zemax.com/pages/opticstudio).
  *  Programming languages : Matlab and Python.
 
-# Ajouter encadrement de stage, lien vers reviews, jury de thèse
+< ! -- Ajouter encadrement de stage, lien vers reviews, jury de thèse -- >
 
 
 Publications
