@@ -1,7 +1,7 @@
 ---
 title: "Analyse théorique et expérimentale de masques de phase annulaires binaires co-optimisés pour augmenter la profondeur de champ de capteurs panchromatiques"
 collection: talks
-type: "Presentation (french)"
+type: "Presentation (in french)"
 permalink: /talks/fon21_AnalyseTheorique
 venue: "[Online only]"
 date: 2021-04-01
