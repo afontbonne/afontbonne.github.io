@@ -1,7 +1,7 @@
 ---
 title: "How to integrate digital post-processing algorithms in professional optical design software for co-designing complex optical systems?"
 collection: talks
-type: "Talk and Proceeding"
+type: "Presentation and Proceeding"
 permalink: /talks/fon21_HowToIntegrate
 venue: "[Online only]"
 date: 2021-09-12
