@@ -1,7 +1,7 @@
 ---
 title: "What is the depth of field reachable in practice with generic binary phase masks and digital deconvolution?"
 collection: talks
-type: "Talk"
+type: "Proceeding"
 permalink: /talks/fon20_WhatIsTheDoF
 venue: "Unconventional Optical Imaging II"
 date: 2020-03-30
