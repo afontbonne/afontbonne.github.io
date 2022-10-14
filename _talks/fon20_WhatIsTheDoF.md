@@ -3,7 +3,7 @@ title: "What is the depth of field reachable in practice with generic binary pha
 collection: talks
 type: "Talk and Proceeding"
 permalink: /talks/fon20_WhatIsTheDoF
-venue: "UC San Francisco, Department of Testing "
+venue: "[Online only]"
 date: 2020-03-30
-location: "Online Only"
+location: "test <a href="https://www.doi.org/10.1117/12.2557731">Citation:</a> "
 ---
