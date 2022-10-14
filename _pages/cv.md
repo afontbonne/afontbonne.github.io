@@ -43,9 +43,10 @@ Conferences and Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-<!--
 Teaching
 ======
+I am a part-time teacher at the <a href="https://www.institutoptique.fr/en">Institut d'Optique Graduate School</a>, where I teach tutorials (in french) on instrumental optic, co-design and digital image processing.
+<!--
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>  -->
