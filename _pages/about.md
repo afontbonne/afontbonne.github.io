@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a postdoctoral researcher at ONERA in end-to-end design (optical design and image processing) and this is my personal webpage. You will find here informations concerning my :
-* [Publications](https://afotnbonne.github.io/publications/) 
+* [Publications](https://afontbonne.github.io/publications/) 
 * [Conference papers and Talks](https://afontbonne.github.io/talks/) 
 * [Teaching](https://afontbonne.github.io/teaching/) 
 
