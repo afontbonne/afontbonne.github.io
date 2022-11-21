@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 
-*  (2021) Ph. D of the [Paris-Saclay University](https://www.universite-paris-saclay.fr/en). <b><i>Joint design of optical systems and imge processing - A new approach to high level optical design.</i></b> Supervisor : Hervé Sauer ([LCF](https://www.lcf.institutoptique.fr/en)) Director : François Goudail ([LCF](https://www.lcf.institutoptique.fr/en))
+*  (2021) Ph. D of the [Paris-Saclay University](https://www.universite-paris-saclay.fr/en). <b><i>Joint design of optical systems and image processing - A new approach to high level optical design.</i></b> Supervisor : Hervé Sauer ([LCF](https://www.lcf.institutoptique.fr/en)) Director : François Goudail ([LCF](https://www.lcf.institutoptique.fr/en))
 
 *  (2018) Master Degree in Optical Engineering at the [Institut d'Optique Graduate School](https://www.institutoptique.fr/)
 
@@ -28,8 +28,13 @@ I have work experience in optical design, image processing, and end-to-end desig
  *  Optical design : [Synopsys CodeV](https://www.synopsys.com/optical-solutions/codev.html) and [Zemax OpticStudio](https://www.zemax.com/pages/opticstudio).
  *  Programming languages : Matlab and Python.
 
-<!-- Ajouter encadrement de stage, lien vers reviews (https://www.webofscience.com/wos/author/record/32296867), jury de thèse -->
+Other research activities
+======
+As part of my research activity :
+ *  I realized [5](https://www.webofscience.com/wos/author/record/32296867) peer reviews.
+ *  I have been a jury member for 1 thesis.
 
+<!-- Ajouter encadrement de stage -->
 
 Publications
 ======
