@@ -31,7 +31,7 @@ I have work experience in optical design, image processing, and end-to-end desig
 Other research activities
 ======
 As part of my research activity :
- *  I realized [5](https://www.webofscience.com/wos/author/record/32296867) peer reviews.
+ *  I realized [6](https://www.webofscience.com/wos/author/record/32296867) peer reviews.
  *  I have been a jury member for 1 thesis.
 
 <!-- Ajouter encadrement de stage -->
