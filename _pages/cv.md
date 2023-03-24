@@ -18,9 +18,12 @@ Education
 
 Work experience
 ======
-*  (Currently) Postdoctoral researcher at ONERA, [DOTA](https://www.onera.fr/en/dota) (ERIO). <b><i>Optical and image processing co-design for depth of field extension in infrared imaging.</i></b> Supervisors : Guillaume Druart (ONERA/DOTA/ERIO) and Pauline Trouvé-Peloux (ONERA/DTIS/IVA).
 
-*  (2022) Postdoctoral researcher at Charles Fabry Laboratory, in the [Imaging & Information group](https://www.lcf.institutoptique.fr/en/groups/imaging-and-information). <b><i>Joint design of optical systems and image processing.</i></b> Supervisor : François Goudail (LCF).
+*  (Currently) Postdoctoral researcher at ONERA, [DTIS](https://www.onera.fr/en/dtis) (IVA). <b><i>Optical and image processing co-design for depth of field extension in infrared imaging.</i></b> Supervisors : Guillaume Druart (ONERA/DOTA/ERIO) and Pauline Trouvé-Peloux (ONERA/DTIS/IVA).
+
+*  (2022) Postdoctoral researcher at ONERA, [DOTA](https://www.onera.fr/en/dota) (ERIO). <b><i>Optical and image processing co-design for depth of field extension in infrared imaging.</i></b> Supervisors : Guillaume Druart (ONERA/DOTA/ERIO) and Pauline Trouvé-Peloux (ONERA/DTIS/IVA).
+
+*  (jan-mar 2022) Postdoctoral researcher at Charles Fabry Laboratory, in the [Imaging & Information group](https://www.lcf.institutoptique.fr/en/groups/imaging-and-information). <b><i>Joint design of optical systems and image processing.</i></b> Supervisor : François Goudail (LCF).
   
 Skills
 ======
@@ -28,14 +31,22 @@ I have work experience in optical design, image processing, and end-to-end desig
  *  Optical design : [Synopsys CodeV](https://www.synopsys.com/optical-solutions/codev.html) and [Zemax OpticStudio](https://www.zemax.com/pages/opticstudio).
  *  Programming languages : Matlab and Python.
 
+Reward
+======
+I received the first accessit to the thesis prize of the [GRADUATE SCHOOL ENGINEERING AND SYSTEMS SCIENCES](https://www.universite-paris-saclay.fr/en/graduate-schools/graduate-school-engineering-and-systems-sciences)
+
 Other research activities
 ======
 As part of my research activity :
+ *  I co-organize (since 2023) the french conference "[JIONC](http://intranet.gdr-isis.fr/index.php?page=reunion&idreunion=490)" 
  *  I realized [7](https://www.webofscience.com/wos/author/record/32296867) peer reviews.
  *  I have been a jury member for 1 thesis.
- *  I co-organize (since 2023) the french conference "[JIONC](http://intranet.gdr-isis.fr/index.php?page=reunion&idreunion=490)" 
 
 <!-- Ajouter encadrement de stage -->
+
+Teaching
+======
+I am a part-time teacher at the <a href="https://www.institutoptique.fr/en">Institut d'Optique Graduate School</a>, where I teach tutorials (in french) on instrumental optic, co-design and digital image processing.
 
 Publications
 ======
@@ -49,7 +60,5 @@ Conferences and Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-Teaching
-======
-I am a part-time teacher at the <a href="https://www.institutoptique.fr/en">Institut d'Optique Graduate School</a>, where I teach tutorials (in french) on instrumental optic, co-design and digital image processing.
+
 
