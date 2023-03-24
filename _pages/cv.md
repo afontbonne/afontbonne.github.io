@@ -33,7 +33,7 @@ I have work experience in optical design, image processing, and end-to-end desig
 
 Reward
 ======
-I received the first accessit to the thesis prize of the [GRADUATE SCHOOL ENGINEERING AND SYSTEMS SCIENCES](https://www.universite-paris-saclay.fr/en/graduate-schools/graduate-school-engineering-and-systems-sciences)
+I received the first accessit to the thesis prize of the [GRADUATE SCHOOL ENGINEERING AND SYSTEMS SCIENCES](https://www.universite-paris-saclay.fr/en/graduate-schools/graduate-school-engineering-and-systems-sciences).
 
 Other research activities
 ======
