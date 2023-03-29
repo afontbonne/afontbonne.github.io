@@ -7,118 +7,274 @@ author_profile: true
 
 {% include base_path %}
 
+<head>
+<style type="text/css">
+	legend {
+		color:#3192B5;
+		font-weight:bold
+	}
+	label {
+		margin-top:0px;
+		display:inline; 
+	}
+	label.inline {
+		display:inline;
+	}
+	input, textarea, select, option {
+		background-color:#F6FFFF;
+	}
+	input, textarea, select {
+		padding:3px;
+		border:1px solid #C5C5F5;
+		border-radius:5px;
+		box-shadow:1px 1px 2px #C0C0C0 inset;
+	}
+	select {
+		margin-top:10px;
+	}
+	input[type=radio] {
+		background-color:transparent;
+		border:none;
+		width:10px;
+	}
+	input[type=submit], input[type=reset] {
+		width:100px;
+		margin-left:5px;
+		box-shadow:1px 1px 1px #D83F3D;
+	cursor:pointer;
+	}
+	</style>
+</head>
+
+
 [Work in progress !] Cette page est une page de test pour la réalisation d'un formulaire d'inscription aux <a href="https://www.gdr-isis.fr/index.php/reunion/490/">JIONC</a>.
 <br>
 
 <form method="get" action="">
-  <fieldset>
-     <legend>A propos de la présentation</legend> <!-- Titre du fieldset --> 
-     <p>
-        <label for="nom">Titre de la présentation</label>
-        <input type="text" name="titre" id="titre">
-     </p>
-     <p>
-        Type de présentation souhaitée :
-        <input type="radio" name="type" value="choixoral" id="choixoral"> <label for="choixoral">Oral</label>
-        <input type="radio" name="type" value="choixposter" id="choixposter"> <label for="choixposter">Poster</label>
-        <input type="radio" name="type" value="choixindifferent" id="choixindifferent"> <label for="choixindifferent">Indifférent</label>
-     </p>
-     <p>
-        <label for="resume">Résumé de la présentation : </label>
-        <textarea name="resume" id="resume" cols="100" rows="4"></textarea>
-     </p>
-     <p>
-        Mots-clés associés à la présentation (plusieurs choix possibles) :<br>
-        <input type="checkbox" name="OA" id="OA"> <label for="OA">Optique adaptative</label><br>
-        <input type="checkbox" name="ImSpatiale" id="ImSpatiale"> <label for="ImSpatiale">Imagerie Spatiale</label><br>
-        <input type="checkbox" name="ImBio" id="ImBio"> <label for="ImBio">Imagerie pour la biologie</label><br>
-        <input type="checkbox" name="Pola" id="Pola"> <label for="Pola">Imagerie Polarisée</label><br>
-        <input type="checkbox" name="Holographie" id="Holographie"> <label for="Holographie">Holographie</label>
-        <input type="checkbox" name="Traitement" id="Traitement"> <label for="Traitement">Traitement d'images</label>
-        <input type="checkbox" name="Coco" id="Coco"> <label for="Coco">Co-conception</label><br>
-        <input type="checkbox" name="PbInv" id="PbInv"> <label for="PbInv">Problèmes inverses</label>
-    </p>
-  </fieldset>
-  <fieldset>
-      <legend>A propos de l'orateur/du présentateur</legend> <!-- Titre du fieldset --> 
-      <p>
-      <label for="nomorateur">Nom :</label>
-      <input type="text" name="nomorateur" id="prenomorateur">
-      <label for="prenomorateur">Prénom :</label>
-      <input type="text" name="prenomorateur" id="prenomorateur">
-      <label for="email">E-mail :</label>
-      <input type="email" name="email" id="email">
-      </p>
-      <p>
-        Statut :
-        <input type="radio" name="statut" value="doc1A" id="doc1A"> <label for="doc1A">Doctorant 1A</label>
-        <input type="radio" name="statut" value="doc2A" id="doc2A"> <label for="doc2A">Doctorant 2A</label>
-        <input type="radio" name="statut" value="doc3A" id="doc3A"> <label for="doc3A">Doctorant 3A</label>
-        <input type="radio" name="statut" value="autreacademique" id="autreacademique"> <label for="autreacademique">Autre académique</label>
-        <input type="radio" name="statut" value="autre" id="autre"> <label for="autre">Autre...</label>
-     </p>
-     <p>
-        Participation à la précédente édition des JIONC :
-        <input type="radio" name="precedent" value="oralprecedent" id="oralprecedent"> <label for="oralprecedent">Oral</label>
-        <input type="radio" name="precedent" value="posterprecedent" id="posterprecedent"> <label for="posterprecedent">Poster</label>
-        <input type="radio" name="precedent" value="rienprecedent" id="rienprecedent"> <label for="rienprecedent">Aucun</label>
-     </p>
-  </fieldset>
-  <fieldset>
-     <legend>Auteur et co-auteurs</legend> <!-- Titre du fieldset -->
-     <p>
-     <label for="nomauteur1"><b>Auteur 1 -</b> Nom :</label>
-     <input type="text" name="nomauteur1" id="nomauteur1">
-     <label for="prenomauteur1">Prénom :</label>
-     <input type="text" name="prenomauteur1" id="prenomauteur1">
-     <label for="affil1">Affiliation (l'affiliation associée au numéro sera à renseigner dans la suite) :</label><br>
-        <select name="affil1" id="affil1">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-        </select>
-     </p>
-     <p>
-     <label for="nomauteur2"><b>Auteur 2 -</b> Nom :</label>
-     <input type="text" name="nomauteur2" id="nomauteur2">
-     <label for="prenomauteur2">Prénom :</label>
-     <input type="text" name="prenomauteur2" id="prenomauteur2">
-     <label for="affil2">Affiliation :</label><br>
-        <select name="affil2" id="affil2">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-        </select>
-     </p>
-     <label for="nomauteur3"><b>Auteur 3 -</b> Nom :</label>
-     <input type="text" name="nomauteur3" id="nomauteur3">
-     <label for="prenomauteur3">Prénom :</label>
-     <input type="text" name="prenomauteur3" id="prenomauteur3">
-     <label for="affil3">Affiliation :</label><br>
-        <select name="affil3" id="affil3">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-        </select>
-     </p>
-  </fieldset>
+	<fieldset>
+		<legend>A propos de la présentation</legend> <!-- Titre du fieldset --> 
+		<p>
+			<label for="nom">Titre de la présentation : </label><br>
+			<input type="text" name="titre" id="titre" size="120" placeholder="Conception conjointe pour l'augmentation de la profondeur de champ : de Cathey & Dowski à aujourd'hui">
+		</p>
+		<p>
+			Type de présentation souhaitée :
+			<input type="radio" name="type" value="choixoral" id="choixoral"> <label for="choixoral">Oral</label>
+			<input type="radio" name="type" value="choixposter" id="choixposter"> <label for="choixposter">Poster</label>
+			<input type="radio" name="type" value="choixindifferent" id="choixindifferent"> <label for="choixindifferent">Indifférent</label>
+		</p>
+		<p>
+			<label for="resume">Résumé de la présentation : </label><br>
+			<textarea name="resume" id="resume" cols="100" rows="4"></textarea>
+		</p>
+		<p>
+			Mots-clés associés à la présentation (plusieurs choix possibles) :<br>
+			<input type="checkbox" name="OA" id="OA"> <label for="OA">Optique adaptative</label><br>
+			<input type="checkbox" name="ImSpatiale" id="ImSpatiale"> <label for="ImSpatiale">Imagerie Spatiale</label><br>
+			<input type="checkbox" name="ImBio" id="ImBio"> <label for="ImBio">Imagerie pour la biologie</label><br>
+			<input type="checkbox" name="Pola" id="Pola"> <label for="Pola">Imagerie Polarisée</label><br>
+			<input type="checkbox" name="Holographie" id="Holographie"> <label for="Holographie">Holographie</label><br>
+			<input type="checkbox" name="Traitement" id="Traitement"> <label for="Traitement">Traitement d'images</label><br>
+			<input type="checkbox" name="Coco" id="Coco"> <label for="Coco">Co-conception</label><br>
+			<input type="checkbox" name="PbInv" id="PbInv"> <label for="PbInv">Problèmes inverses</label>
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>A propos de l'orateur/du présentateur</legend> <!-- Titre du fieldset --> 
+		<p>
+			<label for="nomorateur">Nom :</label>
+			<input type="text" name="nomorateur" id="prenomorateur" placeholder="Dupond">
+			<label for="prenomorateur">Prénom :</label>
+			<input type="text" name="prenomorateur" id="prenomorateur" placeholder="Bob">
+			<label for="email">E-mail :</label>
+			<input type="email" name="email" id="email" placeholder="bob.dupond@laboratoire.fr" size="50">
+		</p>
+		<p>
+			Statut :
+			<input type="radio" name="statut" value="doc1A" id="doc1A"> <label for="doc1A">Doctorant 1A</label>
+			<input type="radio" name="statut" value="doc2A" id="doc2A"> <label for="doc2A">Doctorant 2A</label>
+			<input type="radio" name="statut" value="doc3A" id="doc3A"> <label for="doc3A">Doctorant 3A</label>
+			<input type="radio" name="statut" value="autreacademique" id="autreacademique"> <label for="autreacademique">Autre académique</label>
+			<input type="radio" name="statut" value="autre" id="autre"> <label for="autre">Autre...</label>
+		</p>
+		<p>
+			Participation à la précédente édition des JIONC :
+			<input type="radio" name="precedent" value="oralprecedent" id="oralprecedent"> <label for="oralprecedent">Oral</label>
+			<input type="radio" name="precedent" value="posterprecedent" id="posterprecedent"> <label for="posterprecedent">Poster</label>
+			<input type="radio" name="precedent" value="rienprecedent" id="rienprecedent"> <label for="rienprecedent">Aucun</label>
+		</p>
+		</fieldset>
+		<fieldset>
+		<legend>Auteur et co-auteurs</legend> <!-- Titre du fieldset -->
+		<p>
+			<label for="nomauteur1"><b>Auteur 1 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur1" id="nomauteur1" placeholder="Dupond">
+			<label for="prenomauteur1">Prénom :</label>
+			<input type="text" name="prenomauteur1" id="prenomauteur1" placeholder="Bob"><br>
+			<label for="affil1">Affiliation (l'affiliation associée au numéro sera à renseigner dans la suite) :</label>
+			<select name="affil1" id="affil1">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="nomauteur2"><b>Auteur 2 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur2" id="nomauteur2" placeholder="Dupont">
+			<label for="prenomauteur2">Prénom :</label>
+			<input type="text" name="prenomauteur2" id="prenomauteur2" placeholder="Alice"><br>
+			<label for="affil2">Affiliation :</label>
+			<select name="affil2" id="affil2">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="nomauteur3"><b>Auteur 3 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur3" id="nomauteur3">
+			<label for="prenomauteur3">Prénom :</label>
+			<input type="text" name="prenomauteur3" id="prenomauteur3"><br>
+			<label for="affil3">Affiliation :</label>
+			<select name="affil3" id="affil3">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="nomauteur4"><b>Auteur 4 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur4" id="nomauteur4">
+			<label for="prenomauteur4">Prénom :</label>
+			<input type="text" name="prenomauteur4" id="prenomauteur4"><br>
+			<label for="affil4">Affiliation :</label>
+			<select name="affil4" id="affil4">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="nomauteur5"><b>Auteur 5 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur5" id="nomauteur5">
+			<label for="prenomauteur5">Prénom :</label>
+			<input type="text" name="prenomauteur5" id="prenomauteur5"><br>
+			<label for="affil5">Affiliation :</label>
+			<select name="affil5" id="affil5">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="nomauteur6"><b>Auteur 6 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur6" id="nomauteur6">
+			<label for="prenomauteur6">Prénom :</label>
+			<input type="text" name="prenomauteur6" id="prenomauteur6"><br>
+			<label for="affil6">Affiliation :</label>
+			<select name="affil6" id="affil6">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="nomauteur7"><b>Auteur 7 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur7" id="nomauteur7">
+			<label for="prenomauteur7">Prénom :</label>
+			<input type="text" name="prenomauteur7" id="prenomauteur7"><br>
+			<label for="affil7">Affiliation :</label>
+			<select name="affil7" id="affil7">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="nomauteur8"><b>Auteur 8 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur8" id="nomauteur8">
+			<label for="prenomauteur8">Prénom :</label>
+			<input type="text" name="prenomauteur8" id="prenomauteur8"><br>
+			<label for="affil8">Affiliation :</label>
+			<select name="affil8" id="affil8">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="nomauteur8"><b>Auteur 8 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur8" id="nomauteur8">
+			<label for="prenomauteur8">Prénom :</label>
+			<input type="text" name="prenomauteur8" id="prenomauteur8"><br>
+			<label for="affil8">Affiliation :</label>
+			<select name="affil8" id="affil8">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="nomauteur9"><b>Auteur 9 -</b><br> Nom :</label>
+			<input type="text" name="nomauteur9" id="nomauteur9">
+			<label for="prenomauteur9">Prénom :</label>
+			<input type="text" name="prenomauteur9" id="prenomauteur9"><br>
+			<label for="affil9">Affiliation :</label>
+			<select name="affil9" id="affil9">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+	</fieldset>
     <fieldset>
-     <legend>Affiliations</legend> <!-- Titre du fieldset -->
-     <label for="nomaffil1">Affiliation 1 :</label>
-     <input type="text" name="nomaffil1" id="nomaffil1">
-     <label for="nomaffil2">Affiliation 2 :</label>
-     <input type="text" name="nomaffil2" id="nomaffil2">
-     <label for="nomaffil3">Affiliation 3 :</label>
-     <input type="text" name="nomaffil3" id="nomaffil3">
-  </fieldset>
+		<legend>Affiliations</legend> <!-- Titre du fieldset -->
+		<p>
+			<label for="nomaffil1">Affiliation 1 :</label>
+			<input type="text" name="nomaffil1" id="nomaffil1" size="120" placeholder="Université Paris Saclay, Institut d’Optique Graduate School, CNRS, Laboratoire Charles Fabry, 91127 Palaiseau, France"><br>
+		</p>
+		<p>
+			<label for="nomaffil2">Affiliation 2 :</label>
+			<input type="text" name="nomaffil2" id="nomaffil2" size="120" ><br>
+		</p>
+		<p>
+			<label for="nomaffil3">Affiliation 3 :</label>
+			<input type="text" name="nomaffil3" id="nomaffil3" size="120" ><br>
+		</p>
+		<p>
+			<label for="nomaffil4">Affiliation 4 :</label>
+			<input type="text" name="nomaffil4" id="nomaffil4" size="120" ><br>
+		</p>
+				<p>
+			<label for="nomaffil5">Affiliation 5 :</label>
+			<input type="text" name="nomaffil5" id="nomaffil5" size="120" ><br>
+		</p>
+	</fieldset>
+	<p>
+		<input type="submit" value="Envoyer" />
+		<input type="reset" value="Annuler" />
+	</p>
 </form>
-
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
