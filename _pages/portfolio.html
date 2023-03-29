@@ -8,16 +8,17 @@ author_profile: true
 {% include base_path %}
 
 [Work in progress !] Cette page est une page de test pour la réalisation d'un formulaire d'inscription aux <a href="https://www.gdr-isis.fr/index.php/reunion/490/">JIONC</a>.
+<br>
 
 <form method="get" action="">
   <fieldset>
-     <legend>Présentation</legend> <!-- Titre du fieldset --> 
+     <legend>A propos de la présentation</legend> <!-- Titre du fieldset --> 
      <p>
         <label for="nom">Titre de la présentation</label>
         <input type="text" name="titre" id="titre">
      </p>
      <p>
-        Type de présentation :
+        Type de présentation souhaitée :
         <input type="radio" name="type" value="choixoral" id="choixoral"> <label for="choixoral">Oral</label>
         <input type="radio" name="type" value="choixposter" id="choixposter"> <label for="choixposter">Poster</label>
         <input type="radio" name="type" value="choixindifferent" id="choixindifferent"> <label for="choixindifferent">Indifférent</label>
@@ -57,7 +58,7 @@ author_profile: true
         <input type="radio" name="statut" value="autre" id="autre"> <label for="autre">Autre...</label>
      </p>
      <p>
-        Précédente édition des JIONC :
+        Participation à la précédente édition des JIONC :
         <input type="radio" name="precedent" value="oralprecedent" id="oralprecedent"> <label for="oralprecedent">Oral</label>
         <input type="radio" name="precedent" value="posterprecedent" id="posterprecedent"> <label for="posterprecedent">Poster</label>
         <input type="radio" name="precedent" value="rienprecedent" id="rienprecedent"> <label for="rienprecedent">Aucun</label>
@@ -66,11 +67,11 @@ author_profile: true
   <fieldset>
      <legend>Auteur et co-auteurs</legend> <!-- Titre du fieldset -->
      <p>
-     <input type="text" name="nomauteur1" id="nomauteur1">
      <label for="nomauteur1"><b>Auteur 1 -</b> Nom :</label>
-     <input type="text" name="prenomauteur1" id="prenomauteur1">
+     <input type="text" name="nomauteur1" id="nomauteur1">
      <label for="prenomauteur1">Prénom :</label>
-     <label for="affil1">Affiliation :</label><br>
+     <input type="text" name="prenomauteur1" id="prenomauteur1">
+     <label for="affil1">Affiliation (l'affiliation associée au numéro sera à renseigner dans la suite) :</label><br>
         <select name="affil1" id="affil1">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -80,12 +81,25 @@ author_profile: true
         </select>
      </p>
      <p>
-     <input type="text" name="nomauteur2" id="nomauteur2">
      <label for="nomauteur2"><b>Auteur 2 -</b> Nom :</label>
-     <input type="text" name="prenomauteur2" id="prenomauteur2">
+     <input type="text" name="nomauteur2" id="nomauteur2">
      <label for="prenomauteur2">Prénom :</label>
+     <input type="text" name="prenomauteur2" id="prenomauteur2">
      <label for="affil2">Affiliation :</label><br>
         <select name="affil2" id="affil2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+     </p>
+     <label for="nomauteur3"><b>Auteur 3 -</b> Nom :</label>
+     <input type="text" name="nomauteur3" id="nomauteur3">
+     <label for="prenomauteur3">Prénom :</label>
+     <input type="text" name="prenomauteur3" id="prenomauteur3">
+     <label for="affil3">Affiliation :</label><br>
+        <select name="affil3" id="affil3">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -96,8 +110,12 @@ author_profile: true
   </fieldset>
     <fieldset>
      <legend>Affiliations</legend> <!-- Titre du fieldset -->
-     <input type="text" name="nomaffil1" id="nomaffil1">
      <label for="nomaffil1">Affiliation 1 :</label>
+     <input type="text" name="nomaffil1" id="nomaffil1">
+     <label for="nomaffil2">Affiliation 2 :</label>
+     <input type="text" name="nomaffil2" id="nomaffil2">
+     <label for="nomaffil3">Affiliation 3 :</label>
+     <input type="text" name="nomaffil3" id="nomaffil3">
   </fieldset>
 </form>
 
