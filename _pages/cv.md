@@ -39,7 +39,7 @@ Other research activities
 ======
 As part of my research activity :
  *  I co-organize (since 2023) the french conference "[JIONC](http://intranet.gdr-isis.fr/index.php?page=reunion&idreunion=490)" 
- *  I realized [8](https://www.webofscience.com/wos/author/record/32296867) peer reviews.
+ *  I realized [9](https://www.webofscience.com/wos/author/record/32296867) peer reviews.
  *  I have been a jury member for 1 thesis.
 
 <!-- Ajouter encadrement de stage -->
