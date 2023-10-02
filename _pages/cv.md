@@ -19,7 +19,9 @@ Education
 Work experience
 ======
 
-*  (Currently) Postdoctoral researcher at ONERA, [DTIS](https://www.onera.fr/en/dtis) (IVA). <b><i>Optical and image processing co-design for depth of field extension in infrared imaging.</i></b> Supervisors : Guillaume Druart (ONERA/DOTA/ERIO) and Pauline Trouvé-Peloux (ONERA/DTIS/IVA).
+*  (Currently) Researcher at ONERA, [DOTA](https://www.onera.fr/en/dota) (ERIO). 
+
+*  (2023) Postdoctoral researcher at ONERA, [DTIS](https://www.onera.fr/en/dtis) (IVA). <b><i>Optical and image processing co-design for depth of field extension in infrared imaging.</i></b> Supervisors : Guillaume Druart (ONERA/DOTA/ERIO) and Pauline Trouvé-Peloux (ONERA/DTIS/IVA).
 
 *  (2022) Postdoctoral researcher at ONERA, [DOTA](https://www.onera.fr/en/dota) (ERIO). <b><i>Optical and image processing co-design for depth of field extension in infrared imaging.</i></b> Supervisors : Guillaume Druart (ONERA/DOTA/ERIO) and Pauline Trouvé-Peloux (ONERA/DTIS/IVA).
 
