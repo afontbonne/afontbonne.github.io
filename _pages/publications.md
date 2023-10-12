@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on <u><a href="https://scholar.google.com/citations?user=ZEPnKhoAAAAJ&hl=fr&oi=ao">my Google Scholar profile</a>.</u>
+You can also find my articles on my <u><a href="https://scholar.google.com/citations?user=ZEPnKhoAAAAJ&hl=fr&oi=ao">Google Scholar profile</a></u>, or on my <u><a href="https://cv.hal.science/alice-fontbonne?langChosen=en">HAL</a></u> account.
 
 {% include base_path %}
 
