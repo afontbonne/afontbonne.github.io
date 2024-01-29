@@ -30,8 +30,8 @@ Work experience
 Skills
 ======
 I have work experience in optical design, image processing, and end-to-end design :
- *  Optical design : [Synopsys CodeV](https://www.synopsys.com/optical-solutions/codev.html) and [Zemax OpticStudio](https://www.zemax.com/pages/opticstudio).
- *  Programming languages : Matlab and Python.
+ *  Optical design : [Synopsys CodeV](https://www.synopsys.com/optical-solutions/codev.html), [Zemax OpticStudio](https://www.zemax.com/pages/opticstudio) and [FORMIDABLE](https://gitlab.space-codev.org/formidable/formidable)
+ *  Programming languages : Matlab and Python, Julia.
 
 Reward
 ======
@@ -40,9 +40,9 @@ I received the first accessit to the thesis prize (2022) of the [GRADUATE SCHOOL
 Other research activities
 ======
 As part of my research activity :
- *  I co-organize (since 2023) the french conference "[JIONC](http://intranet.gdr-isis.fr/index.php?page=reunion&idreunion=490)" 
+ *  I co-organize (since 2023) the french conference "[JIONC](https://gdr-iasis.cnrs.fr/reunion/511/)" 
  *  I realized [9](https://www.webofscience.com/wos/author/record/32296867) peer reviews.
- *  I have been a jury member for 1 thesis.
+ *  I have been a jury member for [1](https://theses.fr/259155543) thesis.
 
 <!-- Ajouter encadrement de stage -->
 
