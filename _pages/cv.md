@@ -35,7 +35,9 @@ I have work experience in optical design, image processing, and end-to-end desig
 
 Reward
 ======
-I received the first accessit to the thesis prize (2022) of the [GRADUATE SCHOOL ENGINEERING AND SYSTEMS SCIENCES](https://www.universite-paris-saclay.fr/en/graduate-schools/graduate-school-engineering-and-systems-sciences) -> see my [thesis feedback](https://www.docteurs-spi.org/post/alice-fontbonne-postdoc-en-conception-conjointe-optique-traitement-%C3%A0-l-onera) (in french).
+I was honored to receive two awards:
+ *  The first accessit to the thesis prize (2022) of the [GRADUATE SCHOOL ENGINEERING AND SYSTEMS SCIENCES](https://www.universite-paris-saclay.fr/en/graduate-schools/graduate-school-engineering-and-systems-sciences) -> see my [thesis feedback](https://www.docteurs-spi.org/post/alice-fontbonne-postdoc-en-conception-conjointe-optique-traitement-%C3%A0-l-onera) (in french).
+ *  A price of the [Alain Bouyssy symposium 2023](https://www.universite-paris-saclay.fr/actualites/31eme-colloque-alain-bouyssy#home201596).
 
 Other research activities
 ======
@@ -48,7 +50,7 @@ As part of my research activity :
 
 Teaching
 ======
-I am a part-time teacher at the <a href="https://www.institutoptique.fr/en">Institut d'Optique Graduate School</a>, where I teach tutorials (in french) on instrumental optic, co-design and digital image processing.
+I am a part-time teacher at the <a href="https://www.institutoptique.fr/en">Institut d'Optique Graduate School</a>, where I teach tutorials (in french) on instrumental optic, co-design and digital image processing. I also supervise student projects. 
 
 Publications
 ======
