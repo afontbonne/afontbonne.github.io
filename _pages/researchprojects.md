@@ -3,9 +3,6 @@ permalink: /researchprojects/
 layout: archive
 title: "Research projects"
 author_profile: true
-redirect_from: 
-  - "/researchprojects/"
-  - "/researchprojects.html"
 ---
 
 My research is in the field of optical design and joint optical/digital processing design. It can be separate into two global research projects. 
